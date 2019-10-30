@@ -1,12 +1,74 @@
 :root {
-  font: 16px / 1 sans-serif;
-}
-
-html {
-  height: 100%;
+  font: 16px / 1 georgia;
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
+  background-color: rgba(0, 127, 151);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: rgb(0, 183, 207);
+  justify-content: center;
+  padding: 0.1rem;
+}
+
+nav ul li {
+  padding: 1rem 1rem;
+}
+
+.mainbox {
+  background-color: rgb(216, 240, 241);
+  margin: 0.1rem 15% 10% 15%;
+  padding-top: 2px;
+}
+
+h1 {
+  text-align: center;
+  font: 200px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.pics {
+  padding: 3px;
+  border: 2px solid rgb(0, 127, 151);
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.text {
+  margin: 1.5rem;
+}
+
+main {
+  display: flex;
+}
+
+footer {
+  background-color: rgb(205, 205, 205);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer ul li {
+  padding: 1rem 1rem;
+}
+
+nav ul li a {
+  color: white;
+}
+
+footer ul li a {
+  color: black;
 }
